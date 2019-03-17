@@ -34,10 +34,12 @@ export default class CharacterSpecific extends React.Component {
 
   render() {
     const app = this;
-    let specificCharacter = <CharacterSpecificComponent image={app.state.rickMortyObj.image}
+    let specificCharacter = <CharacterSpecificComponent 
+      image={app.state.rickMortyObj.image}
       name={app.state.rickMortyObj.name}
       species={app.state.rickMortyObj.species}
-    >
+      gender={app.state.rickMortyObj.gender}
+      status={app.state.rickMortyObj.status}>
     </CharacterSpecificComponent>;
     return (
       <div className="[ row ]">

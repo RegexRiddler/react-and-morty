@@ -17,6 +17,7 @@ export default class CharacterSpecificComponent extends React.Component {
           </h2>
           <p>{this.props.species}</p>
           <p>{this.props.gender}</p>
+          <p>{this.props.status}</p>
         </div>
       </div>
     );

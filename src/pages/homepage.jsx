@@ -47,7 +47,8 @@ export default class Homepage extends React.Component {
 
     rickMortyArray.forEach((value, key) => {
       app.state.rickAndMortyCards.push(
-        <CharacterComponent image={value.image}
+        <CharacterComponent 
+          image={value.image}
           name={value.name}
           species={value.species}
           gender={value.gender}
